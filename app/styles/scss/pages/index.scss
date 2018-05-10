@@ -20,5 +20,15 @@
                 color: $white;
             }
         }
+        #navbar{
+            .navabar-nav{
+                li{
+                    a{
+                        color: $white;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
     }
 }

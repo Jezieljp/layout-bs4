@@ -1,12 +1,16 @@
 //misc settings
+//Importando as variaveis
 @import 'config/_settings';
 @import 'config/_mixins';
+@import 'config/_variable.scss';
 
 //frameworks
 
 //global things
 @import 'general/_reset';
 @import 'layout/_main';
+//Importando fonts do google
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,100);
 
 //pages
 @import "pages/index";
